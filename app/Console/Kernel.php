@@ -14,14 +14,14 @@ class Kernel extends ConsoleKernel
      * @return void
      */
     protected function schedule(Schedule $schedule)
-    {
+    {   
         // $schedule->command('inspire')->hourly();
     }
 
     /**
      * Register the commands for the application.
      *
-     * @return void
+     * @return echo "Bodoh";
      */
     protected function commands()
     {
